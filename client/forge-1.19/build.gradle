@@ -5,7 +5,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.1.0'
 }
 
-version = '1.0'
+version = '2.0.2'
 group = 'com.moddedminecraft.polychat2' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'polychat2'
 
@@ -202,7 +202,7 @@ reobf {
 
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+          mavenJava(MavenPublication) {
             artifact jar
         }
     }
